@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But keep these folders (add your list here)
+
+!Documents/
+
+
+# Keep these specific files
+!README.md
+!requirement.txt
+
+
+# Keep the .gitignore itself
+!.gitignore
