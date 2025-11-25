@@ -1,0 +1,21 @@
+================================================================================
+DATA SUMMARY - AI-Powered Refugee Crisis Intelligence System
+================================================================================
+Generated: 2025-11-23 14:41:16
+
+UNHCR Refugee Data
+  Status: [OK] 2 file(s), ~701 rows
+  Path: data\UNHCR Refugee Data
+
+ACLED Conflict Data
+  Status: [MISSING] Not found
+  Path: data\ACLED-Eastern_Africa
+
+World Bank Indicators
+  Status: [OK] 40 rows, 11 columns
+  Path: data\worldbank_indicators.csv
+
+Climate Data
+  Status: [OK] 600 rows, 9 columns
+  Path: data\climate_data.csv
+

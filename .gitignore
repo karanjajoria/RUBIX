@@ -1,15 +1,214 @@
-# Ignore everything
-*
+# ============================================
+# Python
+# ============================================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.pyc
 
-# But keep these folders (add your list here)
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.*.local
 
-!Documents/
+# ============================================
+# API Keys & Credentials
+# ============================================
+*.json
+!data/*.json
+!models/trained/lstm_metadata*.json
+!models/trained/model_config.json
+!models/trained/training_history.json
+credentials/
+api_keys/
+secrets/
 
+# ============================================
+# Model Weights (KEEP trained, IGNORE large)
+# ============================================
+models/weights/*.pt
+models/weights/*.pth
+!models/trained/lstm_forecaster_real.pth
+!models/trained/best_lstm_model.pth
+!models/trained/scaler_*.pkl
 
-# Keep these specific files
-!README.md
-!requirement.txt
+# ============================================
+# Data Files (KEEP processed, IGNORE raw)
+# ============================================
+data/raw/
+data/**/raw/
+data/cache/
+*.csv.gz
+*.zip
+*.tar.gz
 
+# KEEP essential CSVs for demo
+!data/unhcr_refugees_processed.csv
+!data/acled_conflicts_processed.csv
+!data/worldbank_indicators.csv
+!data/climate_data.csv
 
-# Keep the .gitignore itself
+# ============================================
+# Machine Learning Artifacts
+# ============================================
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.pkl
+!models/trained/*.pkl
+
+# ============================================
+# Logs & Debug Files
+# ============================================
+logs/
+*.log
+*.out
+debug/
+*.debug
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+*.code-workspace
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+*.bak
+*~
+desktop.ini
+
+# ============================================
+# Jupyter Notebooks (exclude outputs)
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+test-results/
+coverage.xml
+
+# ============================================
+# Documentation Builds
+# ============================================
+docs/_build/
+site/
+_site/
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+*.swp
+
+# ============================================
+# Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Personal Scripts (Hidden from repo)
+# ============================================
+.Hscripts/
+.scripts/
+
+# ============================================
+# KEEP Important Files
+# ============================================
 !.gitignore
+!README.md
+!requirements.txt
+!.env.example
+!LICENSE
+!Dockerfile
+!cloudbuild.yaml
+!deploy.sh
+!run_web.bat
+
+# ============================================
+# KEEP Source Code
+# ============================================
+!**/*.py
+
+# ============================================
+# KEEP Documentation
+# ============================================
+!**/*.md
+!docs/**/*
+
+# ============================================
+# Exclude Photoshop & Design Files
+# ============================================
+Documents/*.psd
+Documents/*.ai
+Documents/*.sketch
+Documents/*.xd
+Documents/*.fig
+Documents/*.afdesign
+Documents/*.afphoto
+
+# ============================================
+# KEEP Images & Assets
+# ============================================
+!Documents/images/**/*.png
+!Documents/images/**/*.jpg
+!Documents/images/**/*.jpeg
+!Documents/images/**/*.gif
+!Documents/images/**/*.svg
+!web/static/images/**/*
+!data/sample/**/*.jpg
+!data/sample/**/*.png
+
+# ============================================
+# KEEP Configuration Files
+# ============================================
+!**/*.yaml
+!**/*.yml
+!**/*.toml
+!**/*.ini
+!config/**/*
+
+# ============================================
+# KEEP Web Assets
+# ============================================
+!web/templates/**/*.html
+!web/static/**/*.css
+!web/static/**/*.js
+
+# ============================================
+# Ignore Large Model Files (keep metadata)
+# ============================================
+models/trained/*.pth.tar
+models/trained/*.ckpt
+models/trained/*_large.pth
