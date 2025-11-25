@@ -8,10 +8,15 @@
 > **🏆 Google Kaggle "Agents for Good" Competition Entry**
 > A multi-agent AI system that predicts refugee displacement 4-6 months ahead, enabling proactive humanitarian response.
 
+<div align="center">
+  <img src="Documents/images/Team RUBIX.png" alt="Team RUBIX" width="800"/>
+</div>
+
 ---
 
 ## 📋 Quick Links
 
+- **🌐 [Web Interface](WEB_INTERFACE.md)** - Interactive dashboard (NEW!)
 - **🚀 [Quick Start Guide](docs/guides/QUICK_START.md)** - Get running in 5 minutes
 - **📖 [Complete Documentation](docs/)** - Full technical docs
 - **🎥 [Video Demo](VIDEO_SCRIPT.md)** - 3-minute walkthrough
@@ -63,33 +68,17 @@ Transform humanitarian response from **reactive** to **anticipatory** using mult
 
 ## 🏗️ System Architecture
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                   USER INTERFACE                              │
-│                     main.py                                   │
-└────────────────────────┬─────────────────────────────────────┘
-                         │
-                         ▼
-┌──────────────────────────────────────────────────────────────┐
-│              ORCHESTRATOR AGENT (Agent 5)                     │
-│  - Coordinates workflows (Parallel/Sequential/Looped)         │
-│  - Conflict resolution                                        │
-│  - LLM: Gemini 2.0 Flash → Llama 3 → Templates               │
-└──┬────────────┬────────────┬──────────────┬──────────────────┘
-   │            │            │              │
-   ▼            ▼            ▼              ▼
-┌──────┐   ┌──────┐   ┌──────────┐   ┌──────────────┐
-│Vision│   │Fore- │   │Resource  │   │Communi-      │
-│Agent │   │cast  │   │Agent     │   │cation Agent  │
-│(1)   │   │(2)   │   │(3)       │   │(4)           │
-└──┬───┘   └──┬───┘   └────┬─────┘   └──────┬───────┘
-   │          │            │                │
-   │ YOLO     │ LSTM       │ Optimization   │ Twilio/Email
-   │ Gemini   │ Gemini     │ Gemini         │ Gemini
-   │ Llama3   │ Llama3     │ Llama3         │ Llama3
-   │          │            │                │
-   └──────────┴────────────┴────────────────┘
-```
+<div align="center">
+  <img src="Documents/images/System Architecture.png" alt="System Architecture" width="900"/>
+</div>
+
+### Multi-Agent System Overview
+
+Our system employs **5 specialized AI agents** coordinated by an orchestrator, working together to predict and respond to refugee displacement crises:
+
+<div align="center">
+  <img src="Documents/images/Agents.png" alt="AI Agents Overview" width="900"/>
+</div>
 
 ### Agent Roles
 
@@ -143,7 +132,26 @@ ollama serve
 python main.py --mode demo
 ```
 
-### Option 3: Quick Test (No Setup)
+### Option 3: Web Interface (Interactive Dashboard)
+
+```bash
+# Launch the web dashboard
+run_web.bat  # Windows
+# OR: python web/app.py
+
+# Then open: http://localhost:5000
+```
+
+**Features:**
+- 🎯 Interactive system dashboard with live metrics
+- 🤖 Visual agent cards showing all 5 agents
+- ⚙️ Click-to-run workflow demonstrations
+- 📊 Beautiful charts (LSTM predictions, threat levels)
+- 🏆 Competition scorecard with animated progress
+
+See [WEB_INTERFACE.md](WEB_INTERFACE.md) for complete guide.
+
+### Option 4: Quick Test (No Setup)
 
 ```bash
 # Just run it - uses template responses
@@ -201,6 +209,12 @@ Results:
 
 ## 📁 Project Structure
 
+<div align="center">
+  <img src="Documents/images/File struture.png" alt="Project File Structure" width="900"/>
+</div>
+
+### Directory Overview
+
 ```
 Google-Kaggle/
 ├── agents/                      # 5 AI agents
@@ -226,10 +240,16 @@ Google-Kaggle/
 │   ├── acled_conflicts_processed.csv     # 2,566 rows ✅
 │   ├── worldbank_indicators.csv          # 40 rows ✅
 │   └── climate_data.csv                  # 600 rows ✅
+├── web/                         # Web Interface
+│   ├── app.py                  # Flask backend
+│   ├── templates/              # HTML templates
+│   └── static/                 # CSS, JS, images
 ├── docs/                        # Documentation
 │   ├── guides/                 # User guides
 │   ├── technical/              # Technical docs
 │   └── competition/            # Competition materials
+├── Documents/                   # Project assets
+│   └── images/                 # Architecture diagrams, screenshots
 ├── scripts/                     # Utility scripts
 ├── main.py                      # Demo entry point ⭐
 ├── train_with_real_data.py     # LSTM training script
@@ -240,6 +260,10 @@ Google-Kaggle/
 ---
 
 ## 🎓 Technical Details
+
+<div align="center">
+  <img src="Documents/images/Technical Details.png" alt="Technical Architecture" width="900"/>
+</div>
 
 ### LSTM Forecasting Model
 
@@ -265,6 +289,10 @@ Validation Loss: 1.71 ⭐ EXCELLENT
 Epochs: 100
 Optimizer: Adam (lr=0.0005)
 ```
+
+<div align="center">
+  <img src="Documents/images/Model Performance.png" alt="LSTM Model Performance" width="900"/>
+</div>
 
 **Performance**:
 - ✅ **30 billion times better** than synthetic data
@@ -518,6 +546,10 @@ Memory Systems:
 ---
 
 ## 🏆 Competition Readiness
+
+<div align="center">
+  <img src="Documents/images/Extras.png" alt="Project Highlights & Features" width="900"/>
+</div>
 
 ### Google Kaggle "Agents for Good" Scorecard
 
