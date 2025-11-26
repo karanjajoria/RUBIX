@@ -17,9 +17,9 @@
 ## 📋 Quick Links
 
 - **🌐 [Web Interface](WEB_INTERFACE.md)** - Interactive dashboard (NEW!)
-- **🚀 [Quick Start Guide](docs/guides/QUICK_START.md)** - Get running in 5 minutes
+- **🚀 [Quick Start Guide](https://huggingface.co/spaces/Karanjajoria/refugee-crisis-ai)** - Get running in 5 minutes
 - **📖 [Complete Documentation](docs/)** - Full technical docs
-- **🎥 [Video Demo](VIDEO_SCRIPT.md)** - 3-minute walkthrough
+- **🎥 [Video Demo](https://youtu.be/PcSE2Xb0BUc)** - 3-minute walkthrough
 - **📊 [Training Results](docs/technical/TRAINING_SUCCESS.md)** - LSTM model performance
 - **🤖 [Llama 3 Integration](docs/technical/LLAMA3_INTEGRATION_SUMMARY.md)** - Hybrid LLM architecture
 
