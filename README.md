@@ -617,8 +617,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **⭐ Star this repo if you find it helpful! ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/Google-Kaggle.svg?style=social&label=Star)](https://github.com/yourusername/Google-Kaggle)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/Google-Kaggle.svg?style=social&label=Fork)](https://github.com/yourusername/Google-Kaggle/fork)
+[![GitHub stars](https://img.shields.io/github/stars/karanjajoria/RUBIX.svg?style=social&label=Star)](https://github.com/karanjajoria/RUBIX)
+[![GitHub forks](https://img.shields.io/github/forks/karanjajoria/RUBIX.svg?style=social&label=Fork)](https://github.com/karanjajoria/RUBIX/fork)
 
 **Built with ❤️ for humanitarian impact**
 
