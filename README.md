@@ -622,7 +622,7 @@ This system is **freely available** for humanitarian use by UN agencies, NGOs, g
 - [Documentation](docs/)
 - [Quick Start Guide](docs/guides/QUICK_START.md)
 - [Technical Deep Dive](docs/technical/SESSION_SUMMARY_COMPLETE.md)
-- [Video Demo](VIDEO_SCRIPT.md)
+- [Video Demo](https://www.youtube.com/watch?v=PcSE2Xb0BUc)
 
 ---
 
