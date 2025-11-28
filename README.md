@@ -16,7 +16,7 @@
 
 ## 📋 Quick Links
 
-- **🌐 [Web Interface](https://huggingface.co/spaces/Karanjajoria/refugee-crisis-ai) – Interactive dashboard (NEW!)
+- **🌐 [Web Interface](https://huggingface.co/spaces/Karanjajoria/refugee-crisis-ai)** – Interactive dashboard (NEW!)
 - **🚀 [Quick Start Guide](https://huggingface.co/spaces/Karanjajoria/refugee-crisis-ai)** - Get running in 5 minutes
 - **📖 [Complete Documentation](docs/)** - Full technical docs
 - **🎥 [Video Demo](https://youtu.be/PcSE2Xb0BUc)** - 3-minute walkthrough
