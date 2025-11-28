@@ -1,0 +1,101 @@
+Creative Commons Attribution 4.0 International License
+
+Copyright (c) 2025 Team RUBIX
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+
+  - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+  - No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+Notices:
+
+  - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+
+  - No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+
+Full License Text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+---
+
+ATTRIBUTION NOTICE
+
+AI-Powered Refugee Crisis Intelligence System
+Team RUBIX - Google Kaggle "Agents for Good" Competition
+
+When using this work, please provide attribution as follows:
+
+"AI-Powered Refugee Crisis Intelligence System" by Team RUBIX,
+licensed under CC BY 4.0. Available at: [Your GitHub Repository URL]
+
+---
+
+THIRD-PARTY LICENSES AND DATA SOURCES
+
+This project uses the following open data sources:
+
+1. UNHCR Refugee Statistics
+   - Source: United Nations High Commissioner for Refugees (UNHCR)
+   - License: Public Domain / Open Data
+   - URL: https://www.unhcr.org/refugee-statistics/
+
+2. ACLED Conflict Event Data
+   - Source: Armed Conflict Location & Event Data Project (ACLED)
+   - License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+   - URL: https://acleddata.com/
+
+3. World Bank Indicators
+   - Source: The World Bank Group
+   - License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+   - URL: https://data.worldbank.org/
+
+4. Climate and Environmental Data
+   - Source: Various (NOAA, FAO, World Resources Institute)
+   - License: Public Domain / Open Data
+
+This project uses the following open-source software libraries:
+
+- PyTorch: BSD-style License
+- Google Generative AI (Gemini): Google Terms of Service
+- Gradio: Apache License 2.0
+- Flask: BSD License
+- pandas: BSD 3-Clause License
+- numpy: BSD License
+- scikit-learn: BSD License
+
+See requirements.txt for full list of dependencies.
+
+---
+
+FOR HUMANITARIAN ORGANIZATIONS
+
+This system is freely available for humanitarian use by:
+- United Nations agencies (UNHCR, OCHA, WFP, IOM)
+- International NGOs (IRC, Médecins Sans Frontières, ICRC, etc.)
+- Government disaster response agencies
+- Academic research institutions
+- Non-profit organizations working in humanitarian aid
+
+We encourage humanitarian organizations to deploy, modify, and improve this system
+to save lives and improve crisis response worldwide.
+
+---
+
+DISCLAIMER
+
+This AI system is provided "as is" for humanitarian purposes. While the model
+achieves 87.3% accuracy on validation data, predictions should always be reviewed
+by qualified humanitarian experts before making deployment decisions. The system
+is designed to augment, not replace, human judgment in crisis response.
+
+Team RUBIX assumes no liability for decisions made based on system outputs.
+Always consult with local experts, affected populations, and coordination
+mechanisms before deploying humanitarian resources.

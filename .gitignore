@@ -148,13 +148,19 @@ _site/
 # ============================================
 !.gitignore
 !README.md
+!README_DEPLOYMENT.md
 !requirements.txt
+!requirements_huggingface.txt
 !.env.example
 !LICENSE
 !Dockerfile
 !cloudbuild.yaml
 !deploy.sh
 !run_web.bat
+!app.py
+!main.py
+!train.py
+!train_with_real_data.py
 
 # ============================================
 # KEEP Source Code

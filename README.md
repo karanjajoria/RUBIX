@@ -2,7 +2,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success)](https://github.com)
 
 > **🏆 Google Kaggle "Agents for Good" Competition Entry**
@@ -580,7 +580,20 @@ This is a competition entry, but feedback is welcome!
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+See the [LICENSE](LICENSE) file for full details or visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+### For Humanitarian Organizations
+
+This system is **freely available** for humanitarian use by UN agencies, NGOs, government disaster response agencies, and academic institutions. We encourage organizations to deploy, modify, and improve this system to save lives worldwide.
 
 ---
 
